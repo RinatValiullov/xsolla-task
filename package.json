@@ -1,0 +1,26 @@
+{
+  "name": "xsolla-frontend-school-2021",
+  "version": "1.0.0",
+  "description": "Xsolla School 2021. Frontend - Task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RinatValiullov/xsolla-task.git"
+  },
+  "keywords": [
+    "frontend",
+    "task",
+    "xsolla",
+    "school",
+    "study"
+  ],
+  "author": "Rinat Valiullov <4rontender@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RinatValiullov/xsolla-task/issues"
+  },
+  "homepage": "https://github.com/RinatValiullov/xsolla-task#readme"
+}
