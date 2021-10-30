@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Avenir';
+  src: url('../assets/Avenir-Book.woff2') format('woff2'),
+    url('../assets/Avenir-Book.woff') format('woff'),
+    url('../assets/Avenir-Book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('../assets/Avenir-Black.woff2') format('woff2'),
+    url('../assets/Avenir-Black.woff') format('woff'),
+    url('../assets/Avenir-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: 'Avenir', Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
