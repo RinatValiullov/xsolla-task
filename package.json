@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/RinatValiullov/xsolla-task#readme",
   "dependencies": {
+    "axios": "^0.24.0",
     "react-icons": "^4.3.1"
   }
 }
