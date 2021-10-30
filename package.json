@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/RinatValiullov/xsolla-task/issues"
   },
-  "homepage": "https://github.com/RinatValiullov/xsolla-task#readme"
+  "homepage": "https://github.com/RinatValiullov/xsolla-task#readme",
+  "dependencies": {
+    "react-icons": "^4.3.1"
+  }
 }

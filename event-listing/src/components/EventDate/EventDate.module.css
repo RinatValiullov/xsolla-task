@@ -1,0 +1,11 @@
+.eventdate {
+  align-items: center;
+  border: 2px solid #fff;
+  display: flex;
+  font-size: 48px;
+  font-weight: 400;
+  height: 80px;
+  justify-content: center;
+  line-height: 65px;
+  width: 80px;
+}
