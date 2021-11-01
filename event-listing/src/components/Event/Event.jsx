@@ -4,12 +4,12 @@ import { Bookmark } from './../UI/Bookmark/Bookmark';
 import { EventDate } from './../EventDate/EventDate';
 import { EventTitle } from './../EventTitle/EventTitle';
 
-export const Event = () => {
+export const Event = ({ eventDate, eventTitle }) => {
   return (
     <div className={style.event}>
-      <EventDate date={14} />
+      <EventDate date={eventDate} />
       <Bookmark />
-      <EventTitle title="Rave Autumn" />
+      <EventTitle title={eventTitle} />
     </div>
   );
 };
