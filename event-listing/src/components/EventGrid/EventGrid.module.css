@@ -1,1 +1,6 @@
-.eventgrid {}
+.eventgrid {
+  gap: 40px;
+  */ display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}

@@ -1,6 +1,7 @@
 .selectContainer {
   align-items: center;
   display: inline-flex;
+  font-family: Avenir, Verdana, sans-serif;
 }
 
 .selectContainer:not(:last-of-type) {
@@ -8,9 +9,13 @@
 }
 
 .selectFilter {
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 24px;
   padding: 10px 20px;
 }
 
 .labelFilter {
+  font-size: 24px;
   margin-right: 20px;
 }

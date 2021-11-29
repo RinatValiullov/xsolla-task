@@ -30,7 +30,7 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Avenir', Verdana, sans-serif;
+  font-family: Avenir, Verdana, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

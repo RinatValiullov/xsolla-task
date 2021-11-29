@@ -1,1 +1,7 @@
-.bookmark {}
+.bookmark {
+  height: 18px;
+  position: absolute;
+  right: 40px;
+  top: 40px;
+  width: 14px;
+}

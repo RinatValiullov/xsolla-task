@@ -11,6 +11,7 @@ export const EventGrid = ({ events }) => {
             key={event.id}
             eventDate={event.date.substr(0, 2)}
             eventTitle={event.name}
+            eventBg={event.image}
           />;
         })
       }

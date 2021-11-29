@@ -1,4 +1,12 @@
 .event {
+  border: 1px solid #000;
   border-radius: 5px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  max-width: 600px;
   padding: 40px;
+  position: relative;
+  width: 100%;
 }
