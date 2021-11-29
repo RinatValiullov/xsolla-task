@@ -1,6 +1,6 @@
 .eventgrid {
   gap: 40px;
-  */ display: flex;
+  display: flex;
   flex-wrap: wrap;
   gap: 40px;
 }
