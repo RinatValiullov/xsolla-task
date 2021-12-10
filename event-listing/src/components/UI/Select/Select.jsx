@@ -4,10 +4,10 @@ import style from './Select.module.css';
 const Select = ({ options, label, value, onChange }) => {
   return (
     <div className={style.selectContainer}>
-      <label htmlFor="city-select" className={style.labelFilter}>{label}:</label>
+      <label htmlFor={label} className={style.labelFilter}>{label}:</label>
       <select
         className={style.selectFilter}
-        id="city-select"
+        id={label}
         value={value}
         onChange={event => onChange(event.target.value)}
       >
