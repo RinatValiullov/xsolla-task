@@ -15,12 +15,55 @@ function App() {
 
   useEffect(() => {
     fetchList().then((data) => setEvents(data));
-  }, []);
+  }, [events]);
+
+  const getCities = (events) => {
+    return events
+      .map((event) => event.city)
+      .filter((city, index, self) => self.indexOf(city) === index);
+  };
+
+  const getMonths = (events) => {
+    return events
+      .map((elem) => {
+        return new Date(
+          elem.date.split(".").reverse().join("-")
+        ).toLocaleDateString("en-US", { month: "long" });
+      })
+      .filter((month, index, self) => self.indexOf(month) === index)
+      .sort((a, b) => {
+        const months = [
+          "January",
+          "February",
+          "March",
+          "April",
+          "May",
+          "June",
+          "July",
+          "August",
+          "September",
+          "October",
+          "November",
+          "December"
+        ];
+        return months.indexOf(a) - months.indexOf(b);
+      })
+      .map((date) => ({ value: date }));
+  };
+
+  const filterMonths = (month) => {
+    console.log(month);
+  };
 
   return (
     <div className="App">
       <Header text="Event Listing" />
-      <Filter events={events} />
+      <Filter
+        events={events}
+        filterMonths={filterMonths}
+        getCities={getCities}
+        getMonths={getMonths}
+      />
       <EventGrid events={events} />
     </div>
   );
